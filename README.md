@@ -1,5 +1,4 @@
-from datetime import datetime
-
+from datetime import datetim
 def current_datetime():
     now = datetime.now()
     return now.strftime("%Y-%m-%d %H:%M:%S")
